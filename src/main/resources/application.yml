@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: phinxt
+
+application:
+  validation:
+    check-patches-in-room-before-run: false
+    check-instructions-is-valid-before-run: false
+    continue-if-instruction-not-found: false
+
+springdoc:
+  swagger-ui:
+    use-root-path: true
